@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>电商体验数据平台_登录</title>
+<link href="login.css" rel="stylesheet" type="text/css">
+<script src="login.js"></script>
+<script>window.addEventListener("resize", resizeCanvas, false)</script>
+<script>document.onmousemove = mousemoving</script>
+</head>
+
+<body>
+
+<canvas id="myCanvas"></canvas>
+<div id="container">
+<script>initialDraw()</script>
+<img id = "brainpic" src="http://e-tracker.brain-intelligence.cn/statics/dist/images/login_l_pic.png"/>
+
+<div id = "right_tables">
+
+<img id="logo" src="http://e-tracker.brain-intelligence.cn/statics/dist/images/logo.png"/>
+<br/><br/>
+<div id = "inputform>
+<form action="test.txt" method="post">
+<div id = "loginline">
+<img id="icon" src="http://e-tracker.brain-intelligence.cn/statics/dist/images/user_ico.svg" />
+<input class="inputbox" type="text" name="username" placeholder="用户名"></div><hr/>
+<div id = "loginline">
+<img id="icon" src="http://e-tracker.brain-intelligence.cn/statics/dist/images/password_ico.svg" />
+<input class="inputbox" type="password" name="password" placeholder="密码"></div><hr/>
+<br/>
+<div id = "bottombutton">
+<div>
+<input class="clickbutton" type="button" value="短信登录">
+<input class="clickbutton" type="button" value="忘记密码"></div>
+<input id="tijiao" type="submit" value="提  交">
+<input class="clickbutton" type="button" value="注册账户" onclick='clickRegister()'>
+</div>
+</form>
+</div>
+
+<p id="footer">版权 brain intelligence</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+html,body {
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+}
+canvas{
+z-index:-1;
+position:absolute;	
+}
+body{
+display: flex;
+align-items: center; 
+justify-content: center; 
+background-color: #f4f8fa;
+}
+#container {
+width: 810px;
+height: 500px;
+background: white;
+display: flex;
+align-items: center;
+border-radius:5px;
+}
+#right_tables{
+display: flex;
+flex-direction:column;
+height: 460px;
+padding:30px;
+padding-left:40px;
+padding-bottom:10px;
+background-color: white;
+justify-content:space-between;
+align-items: flex-start;
+}
+#logo{
+height: 70px;
+}
+#brainpic{
+height: 500px;
+}
+#loginline{
+display: flex;
+align-items: center;
+}
+#footer {
+font-size:10px;
+}
+.inputbox{
+outline-style:none;
+border:0px;
+font-size:16px;
+padding:7px;
+-webkit-text-fill-color:#C0C0C0;
+}
+#tijiao{
+background-image: linear-gradient(to right, rgb(31,188,239) , rgb(118,233,197));
+width:350px;
+outline-style:none;
+border:0px;
+border-radius:5px;
+font-size:18px;
+padding:10px;
+margin-top:20px;
+margin-bottom:20px;
+-webkit-text-fill-color: white;
+}
+.clickbutton{
+border:0px;
+font-size:14px;
+background-color:transparent;
+-webkit-text-fill-color: rgb(31,188,239);
+font-weight:bold;
+padding-left:20px;
+outline-style:none;
+}
+#bottombutton{
+display: flex;
+align-items: flex-end; 
+justify-content: center; 
+flex-direction:column;
+}
+#icon{
+height:18px;
+padding:7px;
+}
